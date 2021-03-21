@@ -1,0 +1,83 @@
+<html>
+<head>
+<link rel="stylesheet" href="support_css.css">
+<style>
+.main_class{
+margin: 10px;
+background-color: f2f2f2;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main_class">
+	<h1 class="heading_class">Entrance Portal 2021</h1>
+	<div class="register_class instruction_class">
+		<h3>New User Registration</h3>
+		<form action="success.html">
+			<table align=center>
+				<tr>
+					<td> <label for="name">Full name </td>
+					<td> <input type="text" name="name" id="name" required placeholder="surname middle first"> </td>
+				</tr>
+				
+				<tr>
+					<td> <label for="email">Email ID</td>
+					<td> <input type="email" name="email" id="email" required placeholder="gmail only"> </td>
+				</tr>
+				
+				<tr>
+					<td> <label for="number">Contact Number</td>
+					<td> <input type="tel" name="number" id="number" required placeholder="Personal only"> </td>
+				</tr>
+				
+				<tr>
+					<td> <label for="bday">Birthday</td>
+					<td> <input type="date" name="bday" id="bday" required placeholder="fill if 18+ age"> </td>
+				</tr>
+				
+				<tr>
+					<td> <label for="gender">Gender </td>
+					<td><label for="male">Male</label> </td>
+					<td> <input type="radio" name="gender" id="male"> </td>
+					<td><label for="female">Female</label> </td>
+					<td> <input type="radio" name="gender" id="female"> </td>
+				</tr>
+				
+				<tr>
+					<td><label for="continent"> Continent</label> </td>
+					<td>
+						<select id="continent" name="continent">
+							<option value="Asia">Asia</option>
+							<option value="America">America </option>
+							<option value="Australia">Australia</option>
+							<option value="Africa">Africa</option>
+							<option value="Europe">Europe</option>
+							<option value="Russia">Russia</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td> </td>
+					<td> <input type="checkbox" id="agreement"> <label for="agreement">I agree all T & C</td>
+				</tr>
+				
+				<tr>
+					<td> </td>
+					<td> <input type="submit" value="Register"> </td>
+					<td> <input type="reset" value="Reset all"> </td>
+				</tr>
+				
+				<tr>
+					<td> </td>
+					<td> <a href="login.html">Existing Login</a> </td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
